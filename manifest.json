@@ -1,0 +1,15 @@
+//based on "Page action by URL" example at:
+//http://developer.chrome.com/extensions/samples.html#
+{
+  "name": "Hide Most Visited",
+  "version": "0.1",
+  "description": "Hides the \"Most Visited\" page link section in the New Tabs window",
+  "background": { "scripts": ["background.js"] },
+
+  "permissions" : [
+    "tabs", "https://*.google.com/webhp?sourceid=chrome-instant*", 
+	      "http://*.google.com/webhp?sourceid=chrome-instant*"
+  ],
+
+  "manifest_version": 2
+}

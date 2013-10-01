@@ -1,0 +1,9 @@
+Simple Chrome Extension to hide the "most visited" buttons from the "New Tab" page in Chrome.
+
+To use:
+
+1) Clone this repository
+2) In chrome, go to: chrome://extensions/
+3) Enable "Developer Mode" checkbox in the top right
+4) Click "Load Unpacked Extension" button
+5) Navigate to and select the folder containing the code.
